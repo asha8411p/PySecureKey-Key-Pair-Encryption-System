@@ -13,8 +13,8 @@ Safeguard your sensitive data with the RSA Encryption &amp; Decryption Utility. 
 - Ensure you have **Python** and **pip** installed.
 - **Install the required library** using pip:
 ```bash
-pip install cryptography
-
+pip install cryptography 
+```
 ## RSA Encryption & Decryption Utility
 
 Generate an RSA key pair and store them as `priv_pem` and `pub_pem` files in your project directory. You can use the provided scripts to generate these keys.
@@ -27,6 +27,7 @@ To encrypt a file, you will need the public key (`pub_pem`). Use the `encrypt.py
 
 ```bash
 python encrypt.py <path_to_file>
+```
 This will create an encrypted version of the file with the .encrypted extension.
 
 ## Decrypting a File
@@ -35,6 +36,7 @@ To decrypt a file, you will need the private key (`priv_pem`). Use the `decrypt.
 
 ```bash
 python decrypt.py <path_to_encrypted_file>
+```
 This will create a decrypted version of the file with the .decrypted extension.
 
 ## Configuration
